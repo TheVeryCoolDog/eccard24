@@ -146,6 +146,11 @@ body {
     transform: rotateY(180deg);
 }
 
+.back img {
+    height: 100%;
+    width: 100%;
+}
+
 .inside {
     background: linear-gradient(
         to right,
@@ -157,9 +162,18 @@ body {
     font-size: 35px;
     text-align: center;
     line-height: 100px;
-    padding: 70px 10px;
+    padding: 50px 10px;
     box-shadow: 25px 25px 35px rgba(0, 0, 0, 0.3);
     transition: 2s;
+}
+
+.inside img {
+    position: absolute;
+    left: 110px;
+    bottom: 0;
+    padding: 0px;
+    height: 64px;
+    width: 64px;
 }
 
 .inside > p {
@@ -171,3 +185,11 @@ body {
     animation: bounce 1s ease;
 }
 
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
