@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #000022;
+    background-color: #154b18;
 }
 
 .card {
@@ -58,7 +58,7 @@ body {
 }
 
 .front {
-    background-color: #BE0F04;
+    background-color: #248b8f;
     z-index: 1;
 }
 
@@ -140,30 +140,30 @@ body {
 .back {
     background: linear-gradient(
         to right,
-        #BE0F04 50%,
-        #7d0b03
+        #248b8f 5%,
+        #ffffff
     );
     transform: rotateY(180deg);
 }
 
 .inside {
     background: linear-gradient(
-        to left,
-        #BE0F04 50%,
-        #7d0b03
+        to right,
+        #ffffff 95%,
+        #248b8f
     );
     font-family: 'Parisienne', cursive;
-    color: white;
-    font-size: 70px;
+    color: #000000;
+    font-size: 35px;
     text-align: center;
     line-height: 100px;
-    padding: 90px 10px;
+    padding: 70px 10px;
     box-shadow: 25px 25px 35px rgba(0, 0, 0, 0.3);
     transition: 2s;
 }
 
 .inside > p {
-    border-bottom: 10px dotted white;
+    border-bottom: 10px dotted rgb(230, 91, 81);
 }
 
 
